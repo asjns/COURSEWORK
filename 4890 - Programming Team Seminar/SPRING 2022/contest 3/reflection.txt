@@ -1,0 +1,25 @@
+contest link:
+https://www.codechef.com/COOK138?itm_campaign=contest_listing
+
+individual problems:
+(DISTK)
+https://www.codechef.com/problems/DISTK
+
+(MANGOMKT)
+https://www.codechef.com/COOK138C/problems/MANGOMKT
+
+(MAYOR_PARTY)
+https://www.codechef.com/COOK138C/problems/MAYOR_PARTY
+
+(PREFPERM)
+https://www.codechef.com/COOK138C/problems/PREFPERM
+
+Most of these problems were fun to try and solve (I solved every problem except for MANGOMKT due to time exceeded).  
+
+I started by completing PREFPERM, which took me approximately 20 minutes. Since this was the beginning of the contest, I took a few minutes to look over other problems before deciding that this was the best one to tackle. It was interesting and seemed straight forward. I ended up using a relatively simple technique, which moved the beginning of each subarray to the end. That way when the subarrays were combined, the resulting array only had subpermutations at the appropriate spots.
+
+MAYOR_PARTY was an easy one-liner that I solved in between the more difficult problems.
+
+DISTK is actually a problem that I emailed you on, and only solved it right after emailing. So for the sake of the contest, I did not actually solve it in time. The solution was pretty clever, and involved reducing the symmetry (by this I mean complexity) of the problem. You start with the simple solution [1, 1, 1, 1, ...], which has N good subarrays. You then work from left to right, starting with [1, 2, 2, 2...] and then [1, 2, 3, 3, 3...]. In this way you can iterate upon the solutions in a time-appropriate manner. Once you find a subarray that exceeds the number of good subarrays you're trying to find, you simply work backwards by changing the last numbers to be smaller. For example, if the array [1,2,3,3,3] exceeds the number of good subarrays by 2, you can simply make the last two elements smaller to compensate: [1,2,3,1,1]. Since you're working from left to right, you don't really have to worry about overcounting. 
+
+Finally, MANGOMKT was the most difficult problem, as it was a graph problem. I do not like graph problems because its very difficult to code them in python, and C++ is much harder to program in (with time limitations). However, conceptually I think I understood this problem well. Graphs in python is something that I want to work on, and will be my area of improvement (along with one other concept).

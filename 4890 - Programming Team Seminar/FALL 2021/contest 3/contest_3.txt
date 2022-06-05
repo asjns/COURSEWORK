@@ -1,0 +1,3 @@
+ANTHONY JONES, CONTEST 3
+
+For this contest, I completed an arrangement of problems on Kattis, which were of moderate-difficult level. It was a pretty hard contest, at least the few problems that I worked on, so I spent a lot of my time trying to debug some of my solutions. I'd say that I was significantly impacted by doing this competition alone, since the problems were pretty difficult and my implementations ended up not working (even though I felt like I understood the problems at a fundamental level). Besides that, I enjoyed the practice.

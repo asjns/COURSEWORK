@@ -1,0 +1,19 @@
+This is my solution for a dijkstra algorithm in python. There are two basic data structures which are useful for representing graphs and the solutions to graph problems: they are the dict() and deque() structures. In this example, I represent the nodes as all the numbers 
+
+1....n
+
+and I represent their edges with a set of neighbors given. This basically creatures a collection of adj lists, for example:
+
+	0: [1,2]
+	1: [0]
+	2: [0]
+	3: None
+
+Would represent the following graph:
+
+	(0)------(1)
+	 |
+	(2)      (3)
+
+My solution uses dijkstras algorithm to visit each node adjacent to the starting node, 
+and then to find whether there is a path from point A to point B. 

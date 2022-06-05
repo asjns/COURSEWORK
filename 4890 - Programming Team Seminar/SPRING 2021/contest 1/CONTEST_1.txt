@@ -1,0 +1,14 @@
+For the first contest, I worked with my friend and teammate Ben Braun to complete the COCI's 5th contest.
+
+We worked together at his apartment, as I did not own a laptop and I could not work on my computer at the time. Therefore,
+our general strategy was to read the problems, try to find a paper solution, and then try to implement the solution with
+his laptop and PC. He is much more familiar with python, so he worked quickly to implement those solutions; while I worked 
+instead on implementing C++ solutions for other problems.
+
+Our mindset coming into this contest was to get a fresh dive into the atmosphere of a contest. We didn't plan much and we
+were not very prepared to do well for it. That being said, we did complete the first task and we got partial credit on the
+second one. I believe I found a solution to the third task, Magenta, but I could not implement the solution in time. This
+contest only lasted for 3 hours, so we were not prepared enough to jump right into coding.
+
+Overall I believe the contest was a successful practice because we did find solutions to three problems, and we did improve
+our coding familiarity with the problems.

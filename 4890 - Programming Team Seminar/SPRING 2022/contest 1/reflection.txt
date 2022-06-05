@@ -1,0 +1,50 @@
+contest link:
+https://www.codechef.com/LTIME106
+
+individual problems:
+(ADJLOVE)
+https://www.codechef.com/LTIME106B/problems/ADJLOVE
+
+(MINCOINS)
+https://www.codechef.com/LTIME106C/problems/MINCOINS
+
+(SALE2)
+https://www.codechef.com/LTIME106C/problems/SALE2
+
+(SPLITPAIR)
+https://www.codechef.com/LTIME106B/problems/SPLITPAIR
+
+This was my first contest this semester, and I ended up solving two easy and two more difficult problems.
+
+The easier problems were MINCOINS and SALE2. For SALE2, you can simply solve the problem using the math ceil function (as it rounds down / aka negates the discount for every item that isnt a third item). For MINCOINS, my solution took advantage of integer division and modular arithmetic. Since we're counting in discrete coins, its natural to try and use integers for the solution; in this case the only tricky part was adding in integer division.
+
+The more difficult problems were SPLITPAIR and ADJLOVE, with both taking up roughly an hour of time. For SPLITPAIR, there is an interesting property of the parity of numbers that I took advantage of. Since odd + odd and even + even both produce an even number, the only way that you can get an odd sum is by having an odd number of odd pairings. There's a neat trick in the case of when we have an even number of odd numbers, though:
+
+Lets say for example our numbers were
+
+[5, 4, 7, 9, 13, 16]
+
+The way I thought about of it was through parity:
+
+[odd, even, odd, odd, odd, even].
+
+First I separate the array into even and odd, meaning:
+
+evens = [4, 16]
+odds = [5, 7, 9, 13]
+
+Then I make sure theres at least one odd number (if not, then our sum is guaranteed even since we're adding a bunch of even numbers).
+Lastly, we need at least one even and two odd numbers. We basically put all of the odds at the end of the array, making:
+
+A = [4, 16, 5, 7, 9, 13]
+
+Now our current sum adds to an odd since we have 4 pairs of odd-odd (making an even sum), 1 pair of even-even (making an even), and 1 pair of even-odd (making odd). If instead we had an odd number of odds, we do the following:
+
+B = [4, 16, 5, 7, 9, 13, 15]
+-->
+B = [15, 4, 16, 7, 9, 13, 15]
+
+This effectively offsets our parities so that our sum becomes even again.
+
+Lastly, I solved SPLITPAIR, which was pretty similar to ADJLOVE. To solve this, I also separated into EVENS and ODDS; however, the use was different. In this case, all we ever had to do was look at the odds, evens and zeros to solve the problem. No brute force required. This took the most planning since although I could solve it easily on paper, I had to somehow write code that worked for all inputs. Eventually I found out that theres a special case for N>=100, as this is when N moves from 2 digits to 3 digits and higher.
+

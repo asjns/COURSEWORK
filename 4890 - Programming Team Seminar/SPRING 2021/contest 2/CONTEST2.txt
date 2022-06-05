@@ -1,0 +1,27 @@
+For the second contest, I worked with Ben on his laptop for around 2 hours, talking to Aubry through discord; and then eventually Ben drove me home to try and code some on my computer. This was the practice contest on 2/28 that I believe was the ACM SE Regionals practice contest. The problems I worked on were A and B, although I did help look at some of the problems that Ben coded in python. I've provided my code for problem A, although we did not realize how difficult the problem really was until afterwards.
+
+For problem A, we were given a set of numbers. The goal was to select two of them to add up to a given sum. For example, if we were given
+
+6
+18
+4
+
+As the set of numbers and
+
+10
+
+As the sum, we could do
+
+6 + 4.
+
+What is interesting is that we could also turn numbers upside down to calculate the sum, so any spot with a 2 could become a 5 (and vice versa), and a 6 could become a 9 (and vice versa). So if we were given the sum 13, we could do (6) + 4 = 9 + 4 = 13 to make it valid.
+My solution was to add every number into a vector, along with their contrasting upside down numbers. So it would read the number 39 and
+realize that this number is not valid upside down, as (3) is not a number, However, a number like 2569 could become 6925 when upsidedown.
+
+I then worked with Aubrey on a searching solution, but we could not finish the code in time. 
+
+This contest was definitely the worst of our contests, for many reasons. I actually had not slept, staying up the night prior, and I was not very prepared for the contest. However, more notably, we all had staggered abilities to commit to contest that day. I think Aubrey was working and Ben and I had run into a problem with his laptop. After working hard with Ben and Aubry over discord for about 2 hours, I was mentally fried and my coding suffered. 
+
+Despite being the worst contest, I think it was good in the long run. I realized that tunneling on a problem was not effective; not only when I got stuck on a problem, but also just in general. I worked so hard trying to solve problem A and the few with Ben that I could not really even think of solutions to the others. As for specifics that I had difficulty with this contest, I definitely felt frustrated with my inability to deduce the 'correct' data structure for some of the problems. It was straight forward for me to explain my solution to Aubry for problem A, but I could not figure out whether to use an array, vector, set, or map to do it. I looked through run times on searching and inserting, but ultimately I backtracked a lot and I was really ineffecient. 
+
+The best solution to these problems would be to prepare better, not only mentally but also with a structured studying of the basic data structures and algorithms.

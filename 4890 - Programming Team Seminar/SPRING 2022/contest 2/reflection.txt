@@ -1,0 +1,18 @@
+contest link:
+https://www.codechef.com/START25?itm_campaign=contest_listing
+
+individual problems:
+(POLIN)
+https://www.codechef.com/START25B/problems/POLIN
+
+(EQUALMEX)
+https://www.codechef.com/START25B/problems/EQUALMEX
+
+(DATATYPE)
+https://www.codechef.com/START25C/problems/DATATYPE
+
+In this contest, the POLIN and EQUALMEX problems were from Division 2 whereas the DATATYPE problem was from Division 3. The DATATYPE problem is by far the easiest, and I started with this one. Even though the problem is framed as requiring a special "datatype", the actual solution is simple modular arithmetic. After solving the first problem, I moved on to POLIN, which asks for the unique number of lines made from a grid. Since the only cases where two lines are the same is whenever a coordinate is equal, I solved the problem by simply adding all the unique coordinates together. In python the set data structure does this automatically, so my solution was also very efficient and terse.
+
+Lastly, I worked on Equal MEX. It asks if it is possible to split an array into two subarrays such that their MEX are equivalent. The obvious solution to this would be brute force, however we are dealing with arrays up to a length of 10^5. Thus there are far too many subarrays to try and brute force. My solution was simpler, and it revolved around two cases where the answer is YES. Basically, the subarrays will have equivalent MEX if (a) the MEX of the entire array is 0, in which case the answer is trivial; and (b) if there are at least 2 copies of every integer up to the MEX. Since in that case you simply divide the array into its two copies, and then you're done.
+
+I also worked on some of the other problems in this contest, but actually I ran into a problem with the way that this contest's problems were worded. A lot of the problems use heavy mathematical notation, and do not present clear enough examples for me to understand them. In CNTAR (Count Arrays), for example, I could not even decipher how to approach the problem, since the examples provided were not clear enough. I spent a large portion of time trying to solve CNTAR and another problem (Building Towers), which could have better been spent on some easier solutions from Division 3. However at this point I was really trying to work on me solving more difficult problems, so I decided not to.

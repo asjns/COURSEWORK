@@ -1,0 +1,24 @@
+For the third contest, I worked with my team to complete some problems for the February USACO practice contest that we 
+could not attend before the ACM contest. We worked mostly separate for the Bronze level problems, while together we looked
+at some of the silver problems.
+
+For my bronze level problem, I actually began by looking at the Year of the Cow problem. I recognized that the problem would
+probably be much easier to code using python, so I asked Ben to swap our problems and told him what I thought the solution would
+be. Afterwards, I took a shot at the Clockwise Fence problem. 
+
+This turned out to be surprisingly difficult, as I point out in my documentation for the code. I worked for about an hour trying
+to implement a solution, before my team decided to try and tackle the silver problems. We first looked at the Just Green Enough
+problem, although we were intimidated by the sub-grid approach. I recognized that this was very similar to a problem that we went
+over in class, although I was stuck when it came to coding a solution. I think this might be a great problem-type for me to look
+over for the other assignment in this class.
+
+After giving up on the Just Green Enough problem, we instead took a look at the silver level Comfortable Cows problem. Aubry was
+already prepared for this problem, as she had finished the Bronze level version. Our general strategy is outlined in the code
+provided, although we never ended up finding a correct solution. After looking through the solutions provided on the website, I 
+think we overthought the process by using recursion. It looks like the flood-fill queue solution is very similar to the breadth-
+first search methods that we used in Data Algorithms. This would probably have fixed our issue with 'remembering' previous cow
+placements, with the added advantage of running faster.
+
+Overall, I think this was the best practice contest that we did, although we did not perform great with our solutions. We already
+had practiced twice and done a real contest, so our communication was greatly improved and it was easy for me to relay my solutions
+to them over discord.

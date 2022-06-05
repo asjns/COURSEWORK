@@ -1,0 +1,12 @@
+My choices for the three contests were all on the codechef.com website, which is a popular website for coding competitions. 
+They have several monthly contests, and each of the contests are broken into different Divisions. For the most part, I found
+that Divisions 3 and 4 were too easy, whereas Division 2 was too difficult for me to complete. This is similar to how on
+the USACO competitions, Bronze and Silver problems are typically easy but the Gold difficulty problems are where things
+begin to get much harder. I chose to do all my competitions on codechef because (a) they have more problems involving math,
+which I am majoring in; and (b) they allow you to test your code after competitions are completed (which I could not find
+on many other websites). I spent roughly 3 hours per competition, solving 3-4 problems each time. I spent most of my time
+looking through the Division 2 problems, which were harder; however there were some Division 3 problems that I coded up
+easily when I needed a break. For a single person, I think I performed well; however there are areas which I clearly can
+improve on.
+
+For my two areas of improvement, I decide that I need to work on building basic graphs (in python) and solving problems traversing the graphs. For example, there is one problem in the last contest that I knew I could not do as I was not familiar enough with python to solve it, and C++ was too difficult for me to code up and finish. 
