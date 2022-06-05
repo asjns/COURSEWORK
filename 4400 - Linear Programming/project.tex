@@ -1,0 +1,66 @@
+\pdfminorversion=4
+\documentclass[]{article}
+
+%%%%%%%%%%%%%%%%%%%
+% Packages/Macros %
+%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb,latexsym,amsmath}     % Standard packages
+
+
+%%%%%%%%%%%
+% Margins %
+%%%%%%%%%%%
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.00in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\topmargin}{-.50in}
+
+%%%%%%%%%%%%
+% Document %
+%%%%%%%%%%%%
+\begin{document}
+
+\title{MATH 4400 Course Project}
+\author{Anthony Jones}
+\date{December 3, 2021}
+\maketitle
+
+\section{Linear Programming with Absolute Values}
+
+\text{Consider a program of the form:}
+
+\begin{equation}
+	\tag{ABS}
+\begin{aligned}
+\min z(\textbf{x}) \quad & \sum_{i=1}^{n} c_i |x_i| \\
+\textrm{s.t.}\quad & A\textbf{x}=\textbf{b}
+\end{aligned}   
+\end{equation}
+
+\begin{enumerate}
+	\item{(30pts) Show that (ABS) is equivalent to a linear program. Choose one of the following two methods.} \\
+    \begin{enumerate}
+    	\item{Show that (ABS) is equivalent to the following lienar program (LP2a)} \\
+        \begin{equation}
+            \tag{LP2a}
+        \begin{aligned}
+        \min \zeta(\textbf{x}) \quad & \sum_{i=1}^{n} c_i y_i \\
+        \textrm{s.t.}\quad & 
+        \begin{array}{c}
+        \begin{aligned}
+        A\textbf{x}=\textbf{b} \\
+        \textbf{x} \leq \textbf{y} \\
+        -\textbf{x} \leq \textbf{y}
+        \end{aligned}
+        \end{array}
+        \end{aligned}   
+        \end{equation} \\
+    \end{enumerate}
+        
+\text{Let x be a feasible solution to (ABS), and let y = x be the vector whose components are \\
+\text{given by} y_i = |x_i|.|}\\
+
+    \item{okay}
+
+\end{document}
